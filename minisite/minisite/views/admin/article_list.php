@@ -44,7 +44,7 @@
 	<td><?php echo $simple_article['template'];?></td>
 	<td style="width:20%"><a href="<?php echo base_url('index.php/admin/article/edit/'.$simple_article['ID'])?>">编辑</a></td>
 	<td style="width:20%"><a href="<?php echo base_url('index.php/admin/article/edit/')?>">添加</a></td>
-	<td style="width:20%"><a href="<?php echo base_url('index.php/article/observe/'.$simple_article['ID'])?>">浏览页面</a></td>
+	<td style="width:20%"><a target="_blank" href="<?php echo base_url('index.php/article/observe/'.$simple_article['ID'])?>">浏览页面</a></td>
 </tr>
 <!-- <tr onmouseout="HiddenOperate(<?php echo $simple_article['ID'];?>);" onmousemove="Display_Operate();" id="<?php echo $simple_article['ID'];?>" style="display:none;">
 	<td style="width:20%"><a href="<?php echo base_url('index.php/admin/article/edit/'.$simple_article['ID'])?>">编辑</a></td>
