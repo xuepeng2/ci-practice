@@ -365,7 +365,7 @@ if ( ! is_php('5.4'))
 	{
 		return CI_Controller::get_instance();
 	}
-
+//var_dump(APPPATH.'core/'.$CFG->config['subclass_prefix'].'Controller.php');exit;
 	if (file_exists(APPPATH.'core/'.$CFG->config['subclass_prefix'].'Controller.php'))
 	{
 		require_once APPPATH.'core/'.$CFG->config['subclass_prefix'].'Controller.php';
