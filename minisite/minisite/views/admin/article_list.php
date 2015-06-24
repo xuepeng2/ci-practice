@@ -26,6 +26,13 @@
 // }
  </script>
 <h3>Welcome My minisite!</h3>
+<div style="float: left;background-color: orchid;">
+	<ul>
+		<li><a href="http://my.site_1.com/index.php/admin/template/showlist">模板列表</a></li>
+		<li><a href="http://my.site_1.com/index.php/admin/article/">文章列表</a></li>
+	</ul>
+</div>
+<div style="margin-left: 150px;">
 <?php echo form_open('article'); ?>
 <table>
 <tr>
@@ -56,4 +63,5 @@
 </table>
 
 </form>
+</div>
 </html>

@@ -1,3 +1,10 @@
+<div style="float: left;background-color: orchid;">
+    <ul>
+        <li><a href="http://my.site_1.com/index.php/admin/template/showlist">模板列表</a></li>
+        <li><a href="http://my.site_1.com/index.php/admin/article/">文章列表</a></li>
+    </ul>
+</div>
+<div style="float: left; margin-left: 50px;">
 <?php if(isset($id)){
     echo form_open('admin/article/edit/'.$id);
 }else{
@@ -25,3 +32,4 @@
 	</div>
 
 <?php echo form_close(); ?>
+</div>
